@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+model.env
+exp/result/
+exp/result_*/
+*.log
+*.json
+*.png
+*.csv

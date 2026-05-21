@@ -1,0 +1,10 @@
+from llm.qwen_chat import QwenChat
+from llm.qwen_turbo import QwenTurboChat
+from llm.qwen2_5_14b_instruct import Qwen2_5_14BInstructChat
+from llm.qwen2_5_7b_instruct import Qwen2_5_7BInstructChat
+from llm.qwen1_5_14b_chat import Qwen1_5_14BChat
+from llm.qwen1_5_1_8b_chat import Qwen1_5_1_8BChat
+from llm.deepseek_r1_distill_qwen_14b import DeepSeekR1DistillQwen14BChat
+from llm.deepseek_r1_distill_qwen_7b import DeepSeekR1DistillQwen7BChat
+import llm.register_available_models
+
